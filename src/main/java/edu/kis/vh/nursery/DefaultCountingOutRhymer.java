@@ -5,10 +5,8 @@ public class DefaultCountingOutRhymer {
     private final int CAPACITY = 12;
     private final int EMPTY_SIZE = -1;
     private final int EMPTY_ELEMENT = -1;
-
     private final int[] numbers = new int[CAPACITY];
-
-    public int total = EMPTY_SIZE;
+    private int total = EMPTY_SIZE;
 
     public void countIn(int in) {
         if (!isFull())
