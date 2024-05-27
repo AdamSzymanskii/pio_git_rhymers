@@ -55,7 +55,7 @@ public class RhymersJUnitTest {
         result = rhymer.peekaboo();
         Assert.assertEquals(testValue, result);
         result = rhymer.peekaboo();
-        Assert.assertEquals(testValue, result);git 
+        Assert.assertEquals(testValue, result);
     }
 
     @Test
