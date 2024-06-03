@@ -1,0 +1,9 @@
+/.idea/
+/target/ 
+# Ignoruj pliki i foldery generowane przez IDE Eclipse
+.classpath
+.project
+.settings/
+
+# Ignoruj foldery i pliki związane z budową projektu Maven
+target/
